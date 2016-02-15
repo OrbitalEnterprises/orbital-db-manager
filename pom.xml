@@ -1,0 +1,37 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>enterprises.orbital</groupId>
+    <artifactId>license</artifactId>
+    <version>1.0.0</version>
+  </parent>
+  <artifactId>db-manager</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>Database Manager</name>
+  <description>Common database management code for Orbital Enterprises projects</description>
+  <build>
+    <finalName>orbital-${project.artifactId}-${project.version}</finalName>
+  </build>
+  <dependencies>
+    <dependency>
+      <groupId>org.hibernate</groupId>
+      <artifactId>hibernate-core</artifactId>
+      <version>5.0.6.Final</version>
+    </dependency>
+    <dependency>
+      <groupId>org.hibernate</groupId>
+      <artifactId>hibernate-entitymanager</artifactId>
+      <version>5.0.6.Final</version>
+    </dependency>
+    <dependency>
+      <groupId>javax.transaction</groupId>
+      <artifactId>jta</artifactId>
+      <version>1.1</version>
+    </dependency>
+    <dependency>
+      <groupId>enterprises.orbital</groupId>
+      <artifactId>base</artifactId>
+      <version>1.0.0</version>
+    </dependency>
+  </dependencies>
+</project>
