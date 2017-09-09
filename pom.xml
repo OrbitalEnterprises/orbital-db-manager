@@ -6,15 +6,14 @@
     <version>1.1.0</version>
   </parent>
   <artifactId>db-manager</artifactId>
-  <version>2.1.0</version>
+  <version>2.3.0</version>
   <name>Database Manager</name>
   <description>Common database management code for Orbital Enterprises projects</description>
   <url>https://github.com/OrbitalEnterprises/orbital-db-manager</url>
   <scm>
-  	<url>https://github.com/OrbitalEnterprises/orbital-db-manager</url>
-  	<connection>scm:git:https://github.com/OrbitalEnterprises/orbital-db-manager.git</connection>
-  	<tag>rel_2_1_0</tag>
-  	<developerConnection>scm:git:git@github.com:OrbitalEnterprises/orbital-db-manager.git</developerConnection>
+    <url>https://github.com/OrbitalEnterprises/orbital-db-manager</url>
+    <connection>scm:git:https://github.com/OrbitalEnterprises/orbital-db-manager.git</connection>
+    <developerConnection>scm:git:git@github.com:OrbitalEnterprises/orbital-db-manager.git</developerConnection>
   </scm>
   <build>
     <finalName>orbital-${project.artifactId}-${project.version}</finalName>
@@ -22,7 +21,7 @@
   <properties>
     <hibernate.version>5.0.7.Final</hibernate.version>
     <jta.version>1.1</jta.version>
-    <orbital.toolchain.version>2.1.0</orbital.toolchain.version>
+    <orbital.toolchain.version>2.3.0</orbital.toolchain.version>
   </properties>  
   <dependencies>
     <dependency>
